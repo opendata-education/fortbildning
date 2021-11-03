@@ -1,16 +1,16 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
-format: jb-book
-root: intro
+- file: intro
+- part: put something
 chapters:
 - file: ovningar/Fortbildningsstruktur/fortbildningsstruktur
-  sections:
-  - file: ovningar/Fortbildningsstruktur/Fortbildning_1
-  - file: ovningar/Fortbildningsstruktur/Fortbildning_2
+- file: ovningar/Fortbildningsstruktur/Fortbildning_1
+- file: ovningar/Fortbildningsstruktur/Fortbildning_2
 - file: ovningar/Videoexempel/videoexempel
-  sections:
-  - file: ovningar/Videoexempel/OpenData03
-  - file: ovningar/Videoexempel/OpenData04
-  - file: ovningar/Videoexempel/OpenData05
-  - file: ovningar/Videoexempel/OpenData07
 
+- part: put something
+chapters:
+- file: ovningar/Videoexempel/OpenData03
+- file: ovningar/Videoexempel/OpenData04
+- file: ovningar/Videoexempel/OpenData05
+- file: ovningar/Videoexempel/OpenData07
