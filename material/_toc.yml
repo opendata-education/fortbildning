@@ -7,14 +7,14 @@
   - file: ovningar/Fortbildningsstruktur/Fortbildning_1
   - file: ovningar/Fortbildningsstruktur/Fortbildning_2
 
-- part: Dokument från videoexemplen
+- part: Dokument fran videoexemplen
   chapters:
   - file: ovningar/Videoexempel/OpenData03
   - file: ovningar/Videoexempel/OpenData04
   - file: ovningar/Videoexempel/OpenData05
   - file: ovningar/Videoexempel/OpenData07
   
-- part: Grupparbete Matens utsläpp
+- part: Grupparbete, Matens utslapp
   chapters:
   - file: ovningar/Grupparbete/Matens_CO2_main
   - file: ovningar/Grupparbete/Matens_CO2_grupp1
