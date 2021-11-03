@@ -1,4 +1,4 @@
-# Fysik
+# Fortbildning
 
 Läromedel för programmering och statistikhantering utgående från Open Data
 
