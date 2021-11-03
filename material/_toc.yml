@@ -1,14 +1,12 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
-- part: put something
+- part: Kursschema
   chapters:
-  - file: ovningar/Fortbildningsstruktur/fortbildningsstruktur
   - file: ovningar/Fortbildningsstruktur/Fortbildning_1
   - file: ovningar/Fortbildningsstruktur/Fortbildning_2
-  - file: ovningar/Videoexempel/videoexempel
 
-- part: put something
+- part: Dokument från videoexemplen
   chapters:
   - file: ovningar/Videoexempel/OpenData03
   - file: ovningar/Videoexempel/OpenData04
