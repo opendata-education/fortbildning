@@ -1,0 +1,598 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matens utsläpp - Grupparbete i flera delar (2, 3) &#8212; Fortbildning</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://opendata-education.github.io/se_fortbildning/intro.html/ovningar/Grupparbete/Matens_CO2_grupp2_grupp3.html" />
+    <link rel="shortcut icon" href="../../_static/logo.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Matens utsläpp - Grupparbete i flera delar (4)" href="Matens_CO2_grupp4.html" />
+    <link rel="prev" title="Matens utsläpp - Grupparbete i flera delar (1)" href="Matens_CO2_grupp1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Fortbildning</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Välkommen att använda Open Data
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Kursschema
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Fortbildningsstruktur/Fortbildning_1.html">
+   Fortbildning, session 1 - Kom igång!
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Fortbildningsstruktur/Fortbildning_2.html">
+   Fortbildning session 2 - Fildelning och problemlösning
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Dokument fran videoexemplen
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Videoexempel/OpenData03.html">
+   Första testet med Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Videoexempel/OpenData04.html">
+   Mera Jupyter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Videoexempel/OpenData05.html">
+   Vår första graf
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Videoexempel/OpenData07.html">
+   Problemlösning
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Grupparbete, Matens utslapp
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Matens_CO2_main.html">
+   Grupparbete i flera delar – Lärarens upplaga
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Matens_CO2_grupp1.html">
+   Matens utsläpp - Grupparbete i flera delar (1)
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Matens utsläpp - Grupparbete i flera delar (2, 3)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Matens_CO2_grupp4.html">
+   Matens utsläpp - Grupparbete i flera delar (4)
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/ovningar/Grupparbete/Matens_CO2_grupp2_grupp3.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/opendata-education/se_fortbildning"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/opendata-education/se_fortbildning/issues/new?title=Issue%20on%20page%20%2Fovningar/Grupparbete/Matens_CO2_grupp2_grupp3.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/opendata-education/se_fortbildning/main?urlpath=tree/material/ovningar/Grupparbete/Matens_CO2_grupp2_grupp3.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#innehall">
+   Innehåll
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grupp-2-och-3-a-class-anchor-id-ryhmat23-a">
+   Grupp 2 och 3
+   <a class="anchor" id="ryhmat23">
+   </a>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#del-1-val-av-produkt-och-transportens-inverkan-a-class-anchor-id-osa2-1-a">
+     Del 1: Val av produkt och transportens inverkan
+     <a class="anchor" id="osa2.1">
+     </a>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#del-2-utslappens-fordelning-a-class-anchor-id-osa2-2-a">
+     Del 2: Utsläppens fördelning
+     <a class="anchor" id="osa2.2">
+     </a>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="matens-utslapp-grupparbete-i-flera-delar-2-3">
+<h1>Matens utsläpp - Grupparbete i flera delar (2, 3)<a class="headerlink" href="#matens-utslapp-grupparbete-i-flera-delar-2-3" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="innehall">
+<h2>Innehåll<a class="headerlink" href="#innehall" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="#osa2.1">Del 1: Val av produkter och transportens inverkan</a></p></li>
+<li><p><a class="reference external" href="#osa2.2">Del 2: Utsläppens fördelning</a></p></li>
+</ul>
+</div>
+<div class="section" id="grupp-2-och-3-a-class-anchor-id-ryhmat23-a">
+<h2>Grupp 2 och 3 <a class="anchor" id="ryhmat23"></a><a class="headerlink" href="#grupp-2-och-3-a-class-anchor-id-ryhmat23-a" title="Permalink to this headline">¶</a></h2>
+<p>I diskussionen kring klimatförändring och hushåll finns det en fråga som gång på gång dyker upp: Vilken inverkan har matens ursprung på de utsläpp som orsakas av vår näring? Hur mycket skiljer sig t.ex. utsläppen som orsakas av ett paket lokalproducerat nötkött och en mexikansk avocado? Härifrån börjar vår forskning!</p>
+<p>Er uppgift är att bekanta er med den första gruppens rapport. Därifrån bör ni få den data och information som behövs för att ni ska kunna skapa era egna diagram. Därefter får ni bekanta er med den givna filen ‘food-emissions-supply-chain.csv’, som innehåller en lista på en del livsmedel och de utsläpp som kommer av dem.</p>
+<p>Välj ett livsmedel (Grupp 2 kan välja ett vegetariskt och grupp 3 en köttprodukt), som ni undersöker närmare genom att jämföra t.ex. transportformens inverkan på produktens totalutsläpp, då produkten fraktas från de städer som grupp 1 valt till Helsingfors. Slutligen ska ni lämna in en rapport som innehåller de diagram som behövs, inklusive tillhörande förklaringar, och svar på frågorna nedan.</p>
+<div class="section" id="del-1-val-av-produkt-och-transportens-inverkan-a-class-anchor-id-osa2-1-a">
+<h3>Del 1: Val av produkt och transportens inverkan <a class="anchor" id="osa2.1"></a><a class="headerlink" href="#del-1-val-av-produkt-och-transportens-inverkan-a-class-anchor-id-osa2-1-a" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Eleverna börjar med att läsa in rätt funktionspaket.</span>
+<span class="c1"># Vi läser in den givna csv-filen som variabeln livsmedel.</span>
+
+<span class="n">livsmedel</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/opendata-education/Maantiede/main/materiaali/data/food-emissions-supply-chain.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1685</span><span class="o">/</span><span class="mf">2422854079.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="c1"># Vi läser in den givna csv-filen som variabeln livsmedel.</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">livsmedel</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/opendata-education/Maantiede/main/materiaali/data/food-emissions-supply-chain.csv&#39;</span><span class="p">)</span>
+
+<span class="ne">NameError</span>: name &#39;pd&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Denna cell visar oss hela csv-filens tabell.</span>
+
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s2">&quot;max_rows&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">livsmedel</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1685</span><span class="o">/</span><span class="mf">2731757114.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Denna cell visar oss hela csv-filens tabell.</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> 
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s2">&quot;max_rows&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">livsmedel</span>
+
+<span class="ne">NameError</span>: name &#39;pd&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<p>Nu när ni kan undersöka tabellens innehåll är det dags att välja ett intressant livsmedel att ta en närmare titt på. Därefter beräknar vi produktens CO2-utsläpp utan transportens inverkan, och sedan transportens andel av totalutsläppen.</p>
+<p>Enheten som anges i tabellerna är kgCO2eq.</p>
+<p>Exempel: Om CO2-utsläppen utan transportberäkning är 5 kgCO<span class="math notranslate nohighlight">\(_2\)</span>eq per kilogram, och frakt med tåg är 0.05 kgCO<span class="math notranslate nohighlight">\(_2\)</span>eq per ton och kilometer, så blir utsläppen för en produkt som fraktas 50 km totalt 5 kgCO<span class="math notranslate nohighlight">\(_2\)</span>eq + 0.05 kgCO<span class="math notranslate nohighlight">\(_2\)</span>eq  * 50 (km) / 1000 (kg) = 5.0025 kgCO<span class="math notranslate nohighlight">\(_2\)</span>eq per kilogram.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Vi ska skapa en tabell som innehåller informationen om er utvalda livsmedelsprodukt, olika startstäder,</span>
+<span class="c1"># transportsträckans längd och utsläpp vid olika transportmetoder. Ni kan börja med att köra den här cellen</span>
+<span class="c1"># direkt utan att göra ändringar, så ser ni hur tabellen utformas innan ni börjar fylla i den.</span>
+
+
+<span class="n">info</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Livsmedel&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> 
+                                    <span class="p">],</span>  
+        <span class="s1">&#39;Startstad&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Stad 1&#39;</span><span class="p">,</span> <span class="s1">&#39;Stad 2&#39;</span><span class="p">,</span> <span class="s1">&#39;Stad 3&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Avstånd till Helsingfors&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;avstånd&#39;</span><span class="p">,</span> <span class="s1">&#39;avstånd&#39;</span><span class="p">,</span> <span class="s1">&#39;avstånd&#39;</span><span class="p">],</span> 
+        <span class="s1">&#39;Utsläpp 1 (enhet)&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tal 1.1&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 1.2&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 1.3&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Utsläpp 2 (enhet)&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tal 2.1&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 2.2&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 2.3&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Utsläpp 3 (enhet)&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tal 3.1&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 3.2&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 3.3&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Utsläpp 4 (enhet)&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tal 4.1&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 4.2&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 4.3&#39;</span><span class="p">],}</span>
+
+<span class="n">tabell</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">tabell</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1685</span><span class="o">/</span><span class="mf">3563852775.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">     </span><span class="mi">13</span>         <span class="s1">&#39;Utsläpp 4 (enhet)&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tal 4.1&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 4.2&#39;</span><span class="p">,</span> <span class="s1">&#39;tal 4.3&#39;</span><span class="p">],}</span>
+<span class="g g-Whitespace">     </span><span class="mi">14</span> 
+<span class="ne">---&gt; </span><span class="mi">15</span> <span class="n">tabell</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="n">display</span><span class="p">(</span><span class="n">tabell</span><span class="p">)</span>
+
+<span class="ne">NameError</span>: name &#39;pd&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<p>Lägg märke till att utsläppen i livsmedelstabellen är beräknade per kilogram livsmedel, medan transportutsläppen är angivna per ton. Varför? När passar det bättre att räkna med kilogram och när passar det bättre att räkna i ton? Varför orsakar olika livsmedel olika stora transportutsläpp?</p>
+<p>Här mäter vi utsläpp per massaenhet, men vilka andra storheter kunde vi använda när vi jämför utsläpp?</p>
+<p>Fundera på hur era beräknade utsläpp stämmer överens med de som finns angivna i tabellen. Är det något av era resultat som stämmer överens med det angivna värdet? Vilken transportmetod används för maten i fråga? Varför? Hur viktig är transportutsläppens andel när man beräknar matens totalutsläpp?</p>
+</div>
+<div class="section" id="del-2-utslappens-fordelning-a-class-anchor-id-osa2-2-a">
+<h3>Del 2: Utsläppens fördelning <a class="anchor" id="osa2.2"></a><a class="headerlink" href="#del-2-utslappens-fordelning-a-class-anchor-id-osa2-2-a" title="Permalink to this headline">¶</a></h3>
+<p>Vi undersöker också utsläppens indelning enligt tabellen vi läste in i början.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># I den här cellen skapar vi de listor som behövs för att vi ska kunna</span>
+<span class="c1"># visa hur utsläppen för vårt valda livsmedel är fördelade.</span>
+
+
+<span class="n">kategorier</span> <span class="o">=</span> <span class="n">livsmedel</span><span class="o">.</span><span class="n">columns</span> <span class="c1"># i &#39;kategorier&#39;-variabeln sparar vi kolumnnamnen ur filen &#39;food-emissions-supply-chain.csv&#39;</span>
+<span class="n">kategorier</span> <span class="o">=</span> <span class="n">kategorier</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span> <span class="c1"># Inom klamrarna kan vi välja vilka kolumner vi vill använda.</span>
+                              <span class="c1"># [3:10] betyder 3 till 9, eftersom Python exkluderar den övre gränsen.</span>
+                              <span class="c1"># t.ex. kolumn 3 = päästöt maankäytöstä osv.</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">kategorier</span><span class="p">)</span> <span class="c1"># Vi skriver ut listan för att kontrollera att vi fick med de rätta kolumnerna.</span>
+
+<span class="n">COvarden</span> <span class="o">=</span> <span class="n">livsmedel</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span> <span class="c1"># Vi skapar en variabel för listan med livsmedlets utsläpp.</span>
+                            <span class="c1"># Siffran inom klamrarna ska bytas ut mot ert valda livsmedels index. (omenat = 0, banaanit = 1...)</span>
+
+<span class="n">COvarden</span> <span class="o">=</span> <span class="n">COvarden</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span> <span class="c1"># Här väljer vi ut de värden ur listan som matchar våra valda kolumner.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">COvarden</span><span class="p">)</span>           <span class="c1"># Vi skriver ut listan för att kontrollera att vi har valt rätt  värden.</span>
+
+
+<span class="n">summa</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">COvarden</span><span class="p">)</span> <span class="c1"># Vi beräknar summan av alla värden för att använda den senare i koden.</span>
+
+<span class="n">andel</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">/</span> <span class="n">summa</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">COvarden</span><span class="p">]</span> <span class="c1"># Vi beräknar varje värdes andel av matens totalutsläpp.</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">andel</span><span class="p">)</span> <span class="c1"># Vi skriver ut de beräknade andelarna av utsläppen.</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1685</span><span class="o">/</span><span class="mf">29576590.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="n">kategorier</span> <span class="o">=</span> <span class="n">livsmedel</span><span class="o">.</span><span class="n">columns</span> <span class="c1"># i &#39;kategorier&#39;-variabeln sparar vi kolumnnamnen ur filen &#39;food-emissions-supply-chain.csv&#39;</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="n">kategorier</span> <span class="o">=</span> <span class="n">kategorier</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span> <span class="c1"># Inom klamrarna kan vi välja vilka kolumner vi vill använda.</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span>                               <span class="c1"># [3:10] betyder 3 till 9, eftersom Python exkluderar den övre gränsen.</span>
+
+<span class="ne">NameError</span>: name &#39;livsmedel&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Vi skapar ett diagram som avbildar de olika utsläppsområdenas andel av produktens totalutsläpp.</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">kategorier</span>
+<span class="n">sizes</span> <span class="o">=</span> <span class="n">andel</span>
+
+<span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;green&#39;</span><span class="p">,</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="s1">&#39;yellowgreen&#39;</span><span class="p">,</span> <span class="s1">&#39;gold&#39;</span><span class="p">,</span> <span class="s1">&#39;lightskyblue&#39;</span><span class="p">,</span> <span class="s1">&#39;lightcoral&#39;</span><span class="p">]</span> <span class="c1"># Vi väljer färger för diagrammet.</span>
+
+<span class="c1"># Följande stycke är en kod som skapar ett cirkeldiagram.</span>
+<span class="n">patches</span><span class="p">,</span> <span class="n">texts</span><span class="p">,</span> <span class="n">pcts</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">sizes</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="n">colors</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%.1f%%</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">pctdistance</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">shadow</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">startangle</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">patches</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">),</span> <span class="n">loc</span><span class="o">=</span><span class="s2">&quot;center right&quot;</span><span class="p">,</span> <span class="n">bbox_transform</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">gcf</span><span class="p">()</span><span class="o">.</span><span class="n">transFigure</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">left</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">bottom</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s2">&quot;equal&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">setp</span><span class="p">(</span><span class="n">pcts</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span> <span class="p">(</span><span class="s2">&quot;Bild 1, lägg till titel&quot;</span><span class="p">)</span> <span class="c1"># Lägg till en passande rubrik till diagrammet. Vad avbildas här?</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1685</span><span class="o">/</span><span class="mf">743198461.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Vi skapar ett diagram som avbildar de olika utsläppsområdenas andel av produktens totalutsläpp.</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> 
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">labels</span> <span class="o">=</span> <span class="n">kategorier</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">sizes</span> <span class="o">=</span> <span class="n">andel</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> 
+
+<span class="ne">NameError</span>: name &#39;kategorier&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<p>Fint! Nu har vi all grafik som hör till rapporten. Till sist behöver ni skriva rapporten. Den bör innehålla:</p>
+<ol class="simple">
+<li><p>Diagrammen, med tydliga förklaringar och bildtexter.</p></li>
+<li><p>Era observationer från graferna.</p></li>
+<li><p>Svar på frågorna nedan</p></li>
+<li><p>Kontaktuppgifter till er grupp i det fall att nästa grupp har följdfrågor.</p></li>
+</ol>
+<p>Det är viktigt att skriva en noggrann rapport, så att nästa grupp får tillräckligt med information om ert arbete, kort och koncist. Gå alltså noga igenom er rapport själva, och tänk på vilka frågor som kan dyka upp när följande grupp läser den. Var förutseende, och svara på de potentiella frågorna innan de hinner ställas.</p>
+<p>Frågor:</p>
+<ol class="simple">
+<li><p>Varifrån kommer informationen i tabellerna och diagrammen?</p></li>
+<li><p>Fundera på vad era diagram berättar. Hurudana tankar väcker de?</p></li>
+<li><p>Hur är det med er valda livsmedelsprodukt? Var det något av era beräknade utsläppsvärden som träffade värdet i tabellen? Har transportmedlet en betydande inverkan på livsmedlets helhetsutsläpp? Hur stor inverkan har produktens ursprungsland? Vilka produktionsskeden påverkar produktens utsläpp?</p></li>
+<li><p>Uppskatta hur tillförlitliga era beräkningar är. Verkar något av era resultat felaktigt? Kan ni motivera era resultat?</p></li>
+<li><p>När är det mer praktiskt att ange utsläppen i kilogram, och när i ton? Hur kommer det sig att olika livsmedels transport orsakar olika stora utsläpp?</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./ovningar/Grupparbete"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="Matens_CO2_grupp1.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Matens utsläpp - Grupparbete i flera delar (1)</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="Matens_CO2_grupp4.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Matens utsläpp - Grupparbete i flera delar (4)</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By HIP Education and Open Data Team<br/>
+        
+          <div class="extra_footer">
+            <div>
+<a>Materialet utvecklas med stöd av utbildningsstyrelsen.</a></br><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Tämän sivuston materiaali on käytettävissä seuraavalla lisenssillä: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY 4.0.</a>
+</div>    
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
