@@ -1,1 +1,1 @@
-#  **KURSSCHEMA**
+#  KURSSCHEMA
